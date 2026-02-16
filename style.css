@@ -2,6 +2,11 @@
     --sky: linear-gradient(45deg, #dddddd99, #1111dd99);
 }
 
+
+body {
+    font-family: fantasy;
+}
+
 .sky-background {
     background: var(--sky);
 }
