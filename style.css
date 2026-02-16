@@ -1,0 +1,7 @@
+:root {
+    --sky: linear-gradient(45deg, #dddddd99, #1111dd99);
+}
+
+.sky-background {
+    background: var(--sky);
+}
