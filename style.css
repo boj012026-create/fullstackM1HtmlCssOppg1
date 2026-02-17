@@ -4,6 +4,8 @@ body {
 }
 header {
     text-align: center;
+    background-color: plum; 
+    border-radius: 2em;
 }
 .cake-container {
     display: flex;
