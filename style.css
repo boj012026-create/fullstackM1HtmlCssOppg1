@@ -11,7 +11,6 @@ header {
     border-radius: 2em;
     height: 6em;
 }
-
 footer {
     border: 4px solid orange;
     background-color: plum;
@@ -30,6 +29,7 @@ footer {
 .cake-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .cake-card {
