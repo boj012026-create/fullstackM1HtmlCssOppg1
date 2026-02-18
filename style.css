@@ -2,31 +2,46 @@ body {
     font-family: cursive;
     background: linear-gradient(45deg, wheat, white);
 }
+
 header {
-    text-align: center;
-    background-color: plum; 
+    display: flex;
+    background-color: #440044; 
+    background-size: cover;
     border-radius: 2em;
+    height: 6em;
 }
+
+#header-title {
+    margin: auto;
+    padding: 0.2em 0.4em;
+    border-radius: 0.6em;
+    background-color: wheat;
+}
+
 .cake-container {
     display: flex;
     flex-wrap: wrap;
 }
+
 .cake-card {
+    max-width: 40em;
     display: flex;
     gap: 1em;
     margin: 1em;
     padding: 1em;
     background-color: plum;
     box-shadow: 0 0 5px wheat;
-    border: 4px dotted white;
+    border: 4px groove wheat;
     border-radius: 2em;
     h2 {
 	margin: 0;
     }
 }
+
 .cake-img {
     width: 15em;
     height: auto;
+    aspect-ratio: 16 / 9;
     border-radius: 2em;
 }
 
