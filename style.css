@@ -47,10 +47,11 @@ footer {
     }
 }
 
+
 .cake-img {
     width: 15em;
     height: auto;
-    aspect-ratio: 16 / 9;
+    object-fit: cover;
     border: 4px dotted wheat;
     border-radius: 2em;
 }
